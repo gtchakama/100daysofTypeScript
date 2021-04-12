@@ -4,7 +4,7 @@ This is a way of me boosting my skills in TypeScript.
 
 ## The Rules
 
-1. I will do 100 small TypeScript projects.
+1. I will Journal Everything i learn and do including a few projects running TypeScript.
 2. There's no time limit on how long an individual exercise can take.
 3. Perfect is the enemy of good. I will not be afraid of making mistakes.
 4. I will ask for help when I need it.
