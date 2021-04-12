@@ -14,4 +14,9 @@ Design Goals
 >>Development tooling support
 
 
+Installation 
+npm install -g typescript
 
+
+This will install TypeScript globally. After installation, 
+it will be available via the tsc command.

@@ -1,0 +1,14 @@
+In TypeScript, we use these primitive values in an interface
+to form a blueprint for an Object or Class
+like in the example in sandbox.ts File.
+
+Interface
+Most of the models in TypeScript are a combination of interfaces
+and classes. An interface is a blueprint of a class or object. 
+In this IPizza interface, we define all the properties a pizza has.
+In each property, we define what kind of data type the information is.
+Every property that is defined in an interface is required. 
+If you want to make it optional you have to use the ?. 
+For example propertyName?: string if we define this property in an interface,
+ it's optional. TypeScript won't give you an error if the property is missing in an object.
+  On the other hand, if a property is required, it will give an error if the property is missing.
