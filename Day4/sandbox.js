@@ -1,3 +1,4 @@
+"use strict";
 // let gree: Function;
 var meet = function (name) {
     if (name) {
