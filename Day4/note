@@ -1,0 +1,4 @@
+As we can see in the preceding code , in TypeScript we can add types to each of the
+parameters and then to the function itself to add a return type. TypeScript can infer the return
+type by looking at the return statements, so we can also optionally leave this off in many
+cases.
