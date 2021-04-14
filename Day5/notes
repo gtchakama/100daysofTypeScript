@@ -1,0 +1,8 @@
+Interfaces
+In TypeScript, we can use interfaces to 
+enforce that a class follow the specification in a
+particular contract.
+
+TypeScript will also allow you to use interfaces to declare the type of an
+object. This can help us to prevent many potential issues, especially when working with object
+literals:
