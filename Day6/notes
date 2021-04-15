@@ -23,3 +23,23 @@ something added to the language and runtime.
 In addition to generic interfaces, we can also create 
 generic classes. Note that it is not possible to
 create generic enums and namespaces
+
+
+Union Types
+
+
+Union types are used to declare a variable that is able 
+to store a value of two or more types. In the preceding example,
+ we have declared a variable named path that can contain
+  a single path (string), or a collection of paths (array of string). 
+  In the example, we have also set the value of the variable.
+   We assigned a string and an array of strings without errors;
+    however, when we attempted to assign a numeric value,
+     we got a compilation error because the union type didn't
+declare a number as one of the valid types of the variable.
+
+TypeScript allows you to declare union types:
+var path : string[]|string;
+path = '/temp/log.xml';
+path = ['/temp/log.xml', '/temp/errors.xml'];
+path = 1; // Error
