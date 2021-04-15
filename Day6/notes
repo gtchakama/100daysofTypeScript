@@ -1,0 +1,25 @@
+Tuple Types
+A tuple type is another sort of Array type that knows 
+exactly how many elements it contains, and exactly 
+which types it contains at specific positions.
+
+let StringNumberPair = [String, number];
+
+Here, StringNumberPair is a tuple type of string 
+and number . Like ReadonlyArray , it has no
+representation at runtime, but is significant to
+ TypeScript. To the type system, StringNumberPair
+describes arrays whose 0 index contains a string 
+and whose 1 index contains a number .
+
+
+Enums
+Enums are a feature added to JavaScript by TypeScript
+ which allows for describing a value which could be one 
+ of a set of possible named constants. Unlike most TypeScript
+features, this is not a type-level addition to JavaScript but
+something added to the language and runtime.
+
+In addition to generic interfaces, we can also create 
+generic classes. Note that it is not possible to
+create generic enums and namespaces
