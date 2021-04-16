@@ -2,7 +2,7 @@
 var userInput;
 var userName;
 userInput = 54;
-userInput = 'Max';
+userInput = 'George Chakama';
 function generateError(message, code) {
     throw { message: message, errorCode: code };
 }

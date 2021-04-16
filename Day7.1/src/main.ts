@@ -2,7 +2,7 @@ let userInput : unknown;
 let userName : string;
 
 userInput = 54;
-userInput = 'Max'
+userInput = 'George Chakama';
 
 
 function generateError(message: string, code: number) {
