@@ -16,8 +16,9 @@ var InvTwo = new Invoice("Gerald", "work done on the website", 340);
 var invoices = [];
 invoices.push(InvOne);
 invoices.push(InvTwo);
-InvOne.amount = 500;
-console.log(invoices);
+invoices.forEach(function (inv) {
+    console.log(inv.client, inv.details, inv.amount, inv.format());
+});
 // const anchor = document.querySelector('a')!;
 // if(anchor) {
 //   console.log(anchor.href);

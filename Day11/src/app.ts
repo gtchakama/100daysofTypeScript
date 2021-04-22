@@ -22,8 +22,10 @@ let invoices: Invoice[]= [];
 invoices.push(InvOne);
 invoices.push(InvTwo);
 
-InvOne.amount= 500;
-console.log(invoices);
+invoices.forEach(inv => {
+  console.log(inv.client, inv.details, inv.amount, inv.format());
+  
+});
 
 
 // const anchor = document.querySelector('a')!;
