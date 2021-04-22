@@ -14,7 +14,7 @@ var Invoice = /** @class */ (function () {
     };
     return Invoice;
 }());
-var InvOne = new Invoice("George", "work done on the website", 200);
+var InvOne = new Invoice("Mr Chakama", "work done on the website", 200);
 var InvTwo = new Invoice("Gerald", "work done on the website", 340);
 var invoices = [];
 invoices.push(InvOne);

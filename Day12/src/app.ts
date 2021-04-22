@@ -16,7 +16,7 @@ class Invoice {
   }
 }
 
-const InvOne =new Invoice("George","work done on the website",200);
+const InvOne =new Invoice("Mr Chakama","work done on the website",200);
 const InvTwo =new Invoice("Gerald","work done on the website",340);
 
 let invoices: Invoice[]= [];
