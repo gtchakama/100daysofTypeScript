@@ -5,22 +5,17 @@ const me = {
     speak: (text) => {
         console.log((text));
     },
-    spend(amount) {
+    spend: (amount) => {
         console.log('i spent ', amount);
         return amount;
     }
 };
-console.log(me);
-class Invoice {
-    constructor(client, details, amount) {
-        this.client = client;
-        this.details = details;
-        this.amount = amount;
-    }
-    format() {
-        return `${this.client} owes $ ${this.amount} for ${this.details}`;
-    }
-}
+const greetPerson = (person) => {
+    console.log('Hello', person.name);
+};
+greetPerson(me);
+// console.log(me);
+import { Invoice } from './classes/invoice.js';
 const InvOne = new Invoice("Mr Chakama", "work done on the website", 200);
 const InvTwo = new Invoice("Sir Gerald", "work done on the website", 340);
 let invoices = [];
@@ -46,4 +41,3 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log(type.value, tofrom.value, details.value, amount.valueAsNumber);
 });
-export {};

@@ -13,29 +13,22 @@ const me: IsPerson = {
   speak:(text: string): void {
     console.log((text));
     
-  }
+  },
 
-  spend(amount: number): number{
+  spend: (amount: number): number{
     console.log('i spent ', amount);
     return amount;
   }
 }
-
-console.log(me);
+const greetPerson = (person : IsPerson) => {
+  console.log('Hello',person.name);
+  
+}
+greetPerson(me);
+// console.log(me);
 
 import {Invoice} from './classes/invoice.js';
-class Invoice {
 
-  constructor(
-    readonly client: string,
-    private details: string,
-    public amount: number,
-  ) { }
-
-  format(){
-    return `${this.client} owes $ ${this.amount} for ${this.details}`
-  }
-}
 
 const InvOne =new Invoice("Mr Chakama","work done on the website",200);
 const InvTwo =new Invoice("Sir Gerald","work done on the website",340);
