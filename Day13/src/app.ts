@@ -1,4 +1,28 @@
-//Classes
+//Interfaces
+
+interface IsPerson {
+  name: string;
+  age: number;
+  speak:(a:string): void;
+  spend(a: number): number;
+}
+
+const me: IsPerson = {
+  name: 'George',
+  age: 22,
+  speak:(text: string): void {
+    console.log((text));
+    
+  }
+
+  spend(amount: number): number{
+    console.log('i spent ', amount);
+    return amount;
+  }
+}
+
+console.log(me);
+
 import {Invoice} from './classes/invoice.js';
 class Invoice {
 

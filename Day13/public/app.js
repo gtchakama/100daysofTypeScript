@@ -1,3 +1,16 @@
+//Interfaces
+const me = {
+    name: 'George',
+    age: 22,
+    speak: (text) => {
+        console.log((text));
+    },
+    spend(amount) {
+        console.log('i spent ', amount);
+        return amount;
+    }
+};
+console.log(me);
 class Invoice {
     constructor(client, details, amount) {
         this.client = client;
