@@ -1,0 +1,5 @@
+Revisiting everything we have
+covered so far with a different approach
+
+having both the .ts and .js files opened
+can result in .ts duplication errors
