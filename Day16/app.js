@@ -16,5 +16,5 @@ favActivities = ['sports'];
 console.log(person);
 // console.log(person.age);
 person.hobbies.forEach(function (hobby) {
-    console.log(hobby);
+    console.log(hobby.toUpperCase());
 });
