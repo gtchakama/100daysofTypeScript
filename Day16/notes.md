@@ -25,3 +25,6 @@ This would be the type of such an object:
 }
 `
 ##So you have an object type in an object type so to say.
+
+
+We also used the any Type

@@ -7,8 +7,17 @@
 // };
 const person =  {
     name: 'George',
-    age: 22
+    age: 22,
+    hobbies: ['coding','jogging','music']
 };
 
+let favActivities: string [];
+favActivities = ['sports'];
+
+
 console.log(person);
-console.log(person.age);
+// console.log(person.age);
+
+person.hobbies.forEach(hobby => {
+    console.log(hobby);    
+});
