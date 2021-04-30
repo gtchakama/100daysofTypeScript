@@ -1,15 +1,18 @@
-// const ADMIN = 0;
-// const READ_ONLY = 1;
-// const AUTHOR = 2;
+let result;
+function combine(input1: number | string, input2: number | string) {
+    if (typeof input1 === 'number' && typeof input2 === 'number') {
+        
+        result = input1 + input2;
+    }else{
+      result =  input1.toString() + input2.toString();
+    }
+    return result;
 
-enum Role {ADMIN = 5, READ_ONLY, AUTHOR};
+    }
+    const combinedAges = combine(22,17);
+    console.log(combinedAges);
 
-const person =  {
-    name: 'George',
-    age: 22,
-    hobbies: ['coding','jogging','music'],
-    role: Role.READ_ONLY
-};
-
-
-console.log(person);
+    const combinedNames = combine('George ','Gerald');
+    console.log(combinedNames);
+    
+    

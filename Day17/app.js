@@ -1,18 +1,15 @@
 "use strict";
-// const ADMIN = 0;
-// const READ_ONLY = 1;
-// const AUTHOR = 2;
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 5] = "ADMIN";
-    Role[Role["READ_ONLY"] = 6] = "READ_ONLY";
-    Role[Role["AUTHOR"] = 7] = "AUTHOR";
-})(Role || (Role = {}));
-;
-var person = {
-    name: 'George',
-    age: 22,
-    hobbies: ['coding', 'jogging', 'music'],
-    role: Role.READ_ONLY
-};
-console.log(person);
+var result;
+function combine(input1, input2) {
+    if (typeof input1 === 'number' && typeof input2 === 'number') {
+        result = input1 + input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
+}
+var combinedAges = combine(22, 17);
+console.log(combinedAges);
+var combinedNames = combine('George ', 'Gerald');
+console.log(combinedNames);
