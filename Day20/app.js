@@ -11,4 +11,4 @@ function generateError(message, code) {
 }
 // const result = generateError('An error occured!',500);
 // console.log(result);
-generateError('An error occured!', 500);
+generateError('An error occured!', 340);
