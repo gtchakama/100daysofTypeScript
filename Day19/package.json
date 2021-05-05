@@ -1,0 +1,11 @@
+{
+  "name": "ts-day16",
+  "version": "1.0.0",
+  "description": "understanding TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Chakama",
+  "license": "ISC"
+}
