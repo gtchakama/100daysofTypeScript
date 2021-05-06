@@ -1,2 +1,6 @@
 {
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontWeightBold": null,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "Consolas"
 }

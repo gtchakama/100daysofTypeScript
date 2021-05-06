@@ -1,11 +1,19 @@
 {
-  "name": "ts-day16",
+  "name": "understanding-typescript",
   "version": "1.0.0",
-  "description": "understanding TS",
-  "main": "index.js",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
   },
-  "author": "George Chakama",
-  "license": "ISC"
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }

@@ -1,18 +1,18 @@
-let userInput : unknown;
-let userName : string;
-userInput = 5;
-userInput  = 'Food';
+let appId = 'abc';
+const button = document.querySelector('button')!;
 
-if (typeof userInput === 'string') {
-    userName = userInput;
+function add(n1: number, n2: number) {
+  if (n1 + n2 > 0) {
+    return n1 + n2;
+  }
+  return;
 }
 
-function generateError(message:string, code: number): never {
-    throw {message: message, ErrorCode: code };
+function clickHandler(message: string) {
+  // let userName = 'George';
+  console.log('Clicked! ' + message);
 }
-
-// const result = generateError('An error occured!',500);
-
-// console.log(result);
-
-generateError('An error occured!',340);
+// a comment
+if (button) {
+  button.addEventListener('click', clickHandler.bind(null, "You're welcome!"));
+}
